@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container input, button, a{
+    margin: 20px;
+}
+
+input:hover{
+    background-color:blueviolet;
+    color: white;
+}
+button:hover{
+    background-color:blueviolet;
+    color: white;
+}

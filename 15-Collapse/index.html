@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title>15-Collapse</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style type="text/css">
+      #area, #area2 {
+        border:1px solid rgb(119, 116, 116);
+        margin-top: 20px;
+        padding:20px;
+        background-color: rgb(183, 176, 176);
+        color: white;
+        text-align: center;
+        font-size:2rem;
+
+      }
+
+      button {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+   
+    
+    <div class="container">
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#area">
+        Mostrar/Esconder
+      </button>
+
+      <div class="collapse" id="area">
+        Bora estuar programação ?
+      </div>
+
+      <!--Area 2-->
+
+      <button class="btn btn-primary" data-toggle="collapse" data-target="#area2">
+        Mostrar/Esconder
+      </button>
+
+      <div class="collapse" id="area2">
+        Iremos praticar, praticar e praticar. OK ?
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
